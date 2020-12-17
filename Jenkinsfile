@@ -9,7 +9,7 @@ pipeline {
         stage('Git clone') {
             steps {
                 git branch: 'master',
-                    url: "https://github.com/LivingSkySchoolDivision/Xello.lskysd.ca.git"
+                    url: "https://github.com/LivingSkySchoolDivision/XelloLinkPage.git"
             }
         }
         stage('Docker build') {
