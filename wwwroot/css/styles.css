@@ -1,0 +1,204 @@
+body {
+	margin: 0;
+	padding: 10px;
+	font-family: sans-serif;;
+	background-color: #FFFFFF; /* 5f82b1 */
+}
+
+.page_container {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.environment {
+	margin-top: 15px;
+	text-align: left;
+	border: 3px solid #0066eb;
+	border-radius: 10px;
+	box-sizing: border-box;
+	background-color: white;
+	-webkit-box-shadow: 0px 0px 16px -6px #000000;
+	box-shadow: 0px 0px 16px -6px #000000;
+}
+
+
+.page_title {
+	margin-top: 25px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.environment_title {
+	background-color: #0066eb;
+	padding: 5px;
+	font-size: 23px;
+	color: white;
+	font-weight: bold;
+}
+
+.prod_button_text {
+	font-weight: bold;
+	padding: 10px;
+	color: white;
+}
+
+
+.environment_selector_area {
+	padding: 10px;
+	margin: 25px;
+	display: flex; 
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.environment_selector_button {
+	width: 300px;
+	margin: 10px;
+	font-size: 14pt;
+	text-align: center;
+	border-radius: 15px;
+}
+
+
+.environment_selector_button a {
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #055fc0;
+}
+
+.environment_selector_button img {
+	width: 100px;
+	height: 100px;
+	opacity: 70%;
+	padding-bottom: 10px;
+}
+
+.environment_selector_button img:hover {
+	opacity: 100%;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+.quick_link_button {
+	width: 175px;
+	max-width: 175px;
+	margin: 10px;
+	font-size: 10pt;
+	text-align: center;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.quick_link_button a {
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #055fc0;
+}
+
+
+.quick_link_button img {
+	width: 75px;
+	height: 75px;
+	opacity: 80%;
+	padding-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 800px) {
+	.section_container {
+		width: 100%;
+		padding: 0;
+	}
+
+	.hidden_on_small_screens {
+		display: none;
+		background: magenta;
+	}
+
+	.column_33 {
+		width: 100% !important;
+	}
+	
+	.column_66 {
+		width: 100% !important;
+	}
+
+	.environment_selector_button {
+		width: 100%;
+		margin-bottom: 2em;
+		border-radius: 5px;
+		border: 1px solid rgba(0,0,0,0.1);
+	}
+}
+
+.logo {
+	height: 135px;
+	max-width: 300px;
+}
+
+.quick_link_section {
+	margin: 25px;
+	padding: 10px;
+	display: flex; 
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.info_section {
+	text-align: left;
+	overflow: hidden;
+	width: 100%;
+	font-size: 14pt;
+}
+
+
+.flex {	
+	display: flex; 
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid rgba(0,0,0,0.2)
+}
+
+.column_33 {	
+	float: left;
+	width: 30%;
+	margin: 0;
+	padding: 0;
+}
+
+.column_66 {	
+	float: left;
+	width: 66%;
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 400px) {
+	.lssd_logo {
+		width: 100px;
+		height: 110px;
+		padding: 0;
+	}
+
+	.environment_title {
+		text-align: center;
+	}
+}
+
+li {
+	padding-bottom: 0.3em;;
+}
+
+.big {
+	font-size: 150%;
+}
